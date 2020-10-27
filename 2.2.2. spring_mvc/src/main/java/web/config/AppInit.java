@@ -1,6 +1,10 @@
 package web.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
+import web.model.Car;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class AppInit extends AbstractAnnotationConfigDispatcherServletInitializer {
 
